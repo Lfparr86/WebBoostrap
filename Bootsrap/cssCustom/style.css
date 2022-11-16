@@ -1,0 +1,16 @@
+
+#imagenlogo{
+    border-radius: 60%;
+    width: 5%;
+    margin-left: 2%;
+}
+#imagenPrincipal{
+    width: 100%;
+    height: 50%;
+}
+.card{
+
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
