@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/cssCustom/style.css">
+  <link rel="stylesheet" href="cssCustom/styleedad.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <script defer src="/js/bootstrap.bundle.js"></script>
+  <script defer src="jsCustom/scripedad.js"></script>
+  <script defer src="jsCustom/historia.js"></script>
+</head>
+<body>
+  <div id="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top " id="fondo">
+        <img class="navbar-brand" src="/Imagenes/Logo.png" id="imagenlogo"></img>
+
+        <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link bg-light"  href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary bg-light" href="personajes.html">Personaje Barbaro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary bg-light " href="#">Diablo Resurected</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary bg-light" href="#">Diablo III</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link link-secondary bg-light" href="#">Diablo IV</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid p-0">
+        <img src="/Imagenes/ImagenPrincipal2.png" class=" " alt="Personajes de diablo" id="imagenPrincipal">
+      </div>
+
+      <div class="container-fluid text-center  bg-black p-0 m-0" id="fondomapa" >
+
+        <h1 class="text-white p-2 " id="titulohistoria">Historia</h1>
+        <h4 class="text-white" id="subhistoria">Saga Diablo</h4>
+        <button onclick="mostrarHistoria()">Pulsa para conocer las historia</button>
+        <div class="container-fluid" id="contenedorhistoria">
+          <p class="text-white text-start p-3 m-0 " id="historia">
+            Diablo es una serie de videojuegos pertenecientes al género de acción, de Cortar y destripar, y de Videojuegos de mazmorras desarrollada por Blizzard North y
+            continuada por Blizzard Entertainment después del cierre del estudio del norte en 2005. La serie se compone de cinco videojuegos principales: Diablo I, 
+            Diablo II, Diablo III, Diablo Immortal y Diablo IV.
+            La serie está ambientada en el mundo de fantasía de Santuario. Los tres videojuegos de la serie tienen lugar en áreas geográficas similares, con varias áreas 
+            comunes, incluida la ciudad de Tristram y la región alrededor de Monte Arreat. La configuración adicional es proporcionada por los Cielos Altos y los Infiernos 
+            Ardientes, dos reinos separados vinculados al Santuario. La serie se centra en la batalla entre los humanos que viven en Santuario y los Demonios primarios, 
+            demonios que son liderados por Diablo, el principal antagonista de la serie. Los humanos son ocasionalmente ayudados por ángeles, especialmente el arcángel 
+            de la justicia, Tyrael. Los personajes en el mundo de Santuario son principalmente humanos, ángeles y varias clases de demonios y monstruos.
+            La serie ha dado como resultado la publicación de varios libros relevantes para el universo de Diablo, que cubren una amplia gama de líneas de tiempo del 
+            universo. También hay historietas que exploran varias historias dentro del mundo de Santuario.
+            </p>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-black ">
+        <p class="h1 text-center text-white">Sagas de Diablo</p>
+        <div class="row">
+            <div class="col-sm-1 col-md-6 col-lg-6 p-3">
+
+              <div class="card">
+                <img src="/Imagenes/Diablo 2.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                </div>
+              </div>
+                
+            </div>
+            <div class="col-sm-1 col-md-6 col-lg-6 p-3">
+
+              <div class="card">
+                <img src="/Imagenes/resu.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                </div>
+              </div>
+                
+            </div>
+        
+        </div>
+      </div>
+
+      <div class="container-fluid bg-black">
+        <div class="row">
+            <div class="col-sm-1 col-md-6 col-lg-6 p-3">
+
+              <div class="card">
+                <img src="/Imagenes/Diablo III.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                </div>
+              </div>
+                
+            </div>
+            <div class="col-sm-1 col-md-6 col-lg-6 p-3">
+
+              <div class="card">
+                <img src="/Imagenes/Diablo IV.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                </div>
+              </div>
+                
+            </div>
+        
+        </div>
+      </div>
+
+
+  </div>
+  <div class="emergente">
+    <p>Debes ser mayor de edad para poder visitar este sitio web</p>
+    <div class="boton menor">Tengo menos de 18 años</div>
+    <div class="boton mayor">Soy mayor de edad</div>
+  </div>
+</body>
+</html>

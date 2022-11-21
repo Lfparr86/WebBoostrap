@@ -1,0 +1,31 @@
+
+#imagenlogo{
+    border-radius: 60%;
+    width: 5%;
+    margin-left: 2%;
+}
+#imagenPrincipal{
+    width: 100%;
+    height: 50%;
+}
+
+
+#fondomapa{
+    background-image: url(/Imagenes/wallpaperbetter1.png);
+    
+}    
+
+#titulohistoria{
+    font-family: 'Roboto', sans-serif;
+}
+
+#subhistoria{
+    font-family: 'Roboto', sans-serif;
+}
+#historia{
+    font-family: 'Sono', sans-serif;
+}
+
+#contenedorhistoria{
+    opacity: 0;
+}
